@@ -1,0 +1,78 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Base layout: centered column */
+body {
+    margin: 0;
+    padding: 40px 20px 80px 20px;
+    background-color: #ffffff;
+    color: #2e2e2e;
+}
+
+h1, h2, p, img, .divider {
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Typography */
+h1 {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.15;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: "Source Serif 4", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.byline {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.dek {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Divider line under the headline */
+.divider {
+    height: 2px;
+    background-color: #000000;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+/* Images */
+img {
+    display: block;
+    padding: 24px 0;
+}
+
+/* Links */
+a {
+    text-decoration: underline;
+}
